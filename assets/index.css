@@ -69,25 +69,62 @@ nav > div {
     text-decoration: none;
     color: black;
 }
-.flex-container {
-    display: flex;
+/* .flex-container {
+    column-count: 3;
+    column-gap: 10px;
+    box-shadow: 2px 4px 5px 4px grey;
+    padding: 10px;
+    margin: 20px;
+    height: 100% auto;
     background-color: DodgerBlue;
-}
+} */
 
-.flex-container > div {
+/* .flex-container > div {
     background-color: #f1f1f1;
     margin: 5px;
     padding: 10px;
-    /* font-size: 30px; */
-}
+    
+} */
 .flex-section {
     display: flex;
     /* background-color: gray; */
+
 }
 .card {
     border: 1px solid white;
     box-shadow: 2px 4px 5px 4px gray;
     padding: 20px;
+    /* width: 100%; */
     margin: 30px;
     background-color: white;
 }
+
+.flex-box {
+    border: none;
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: 2px 4px 5px 4px grey;
+    padding: 10px;
+    margin: 20px;
+    /* background-color: aqua; */
+}
+
+.flex-box > div {
+    width: 30%;
+    margin: 100px;
+    text-align: center;
+    line-height: 75px;
+}
+/* .box1 {
+    display: inline;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 30px;
+} */
+/* .box1 > div {
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+
+} */
