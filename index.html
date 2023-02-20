@@ -11,7 +11,8 @@
             background-color:aliceblue;
             /* margin: 10px; */
             padding-bottom: 10px;
-            width: auto;
+            margin-bottom: 30px;
+            width: 100%;
         }
         section {
             border: 1px solid black;
@@ -34,9 +35,18 @@
             margin: 0 30px 0 30px;
         }
         nav {
-            display:inline-flex;
+            display:flex;
             flex: auto;
             justify-content: space-around;
+        }
+        nav > div {
+            display: inline;
+            align-items: center;
+            margin-top: 25px;
+        }
+        .link a {
+            margin-left: 5px;
+            justify-content: space-between;
         }
         .flex-container {
             display: flex;
@@ -59,14 +69,18 @@
     <header>
         <nav>
             <img src="/assets/40781.jpg" alt="" width="50px" height="50px">
-            <div>
+            <div class="link">
                 <a href="#">Home</a>
-                <a href="about.html">About</a>
+                <a href="/pages/about.html">About</a>
                 <a href="#">Home</a>
                 <a href="#">Home</a>
             </div>
-            <input type="text" />
-            <input type="search" />
+            <div>
+                <form action="">
+                    <input type="search" />
+                    <button>Search</button>
+                </form>
+            </div>
         </nav>
     </header>
     <section>
