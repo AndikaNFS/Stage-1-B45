@@ -77,14 +77,15 @@ nav > div {
     margin: 20px;
     height: 100% auto;
     background-color: DodgerBlue;
+}
+
+.flex-container > div {
+    column-count: 3;
+    column-gap: 30px;
+    margin: 10px;
+
 } */
 
-/* .flex-container > div {
-    background-color: #f1f1f1;
-    margin: 5px;
-    padding: 10px;
-    
-} */
 .flex-section {
     display: flex;
     /* background-color: gray; */
